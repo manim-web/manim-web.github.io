@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk" />
+    <title>Manim-web Examples</title>
+    <style>
+      h1 {
+        font-size: 2rem;
+      }
+
+      :root {
+        font-size: 16pt;
+      }
+
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      .back-btn {
+        border-radius: 10px;
+        padding: 15px 20px;
+        background-color: #333333;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #cccccc;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 24px;
+        text-align: center;
+      }
+
+      span.math {
+        font-family: KaTeX_Math;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css"
+      integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"
+      integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js"
+      integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ]});"
+    ></script>
+
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+  </head>
+
+  <body>
+    <h1>Manim web Examples</h1>
+    <a href="index.html" class="back-btn">back</a>
+    <div id="canvas-container"></div>
+    <p>This animation is interactive</p>
+    <p>
+      When all the transformations have been applied, you can drag both the
+      $\hat{\imath}$ vector and the $\hat{\jmath}$ vector.
+    </p>
+    <!-- JS Libs -->
+    <script>
+      var module = {};
+    </script>
+    <script src="matrix_transformation.dart.js"></script>
+  </body>
+</html>

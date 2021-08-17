@@ -8,10 +8,6 @@
     <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk" />
     <title>Manim-web Examples</title>
     <style>
-      h1 {
-        font-size: 2rem;
-      }
-
       :root {
         font-size: 16pt;
       }
@@ -22,35 +18,20 @@
         margin: 0;
       }
 
-      .back-btn {
-        border-radius: 10px;
-        padding: 15px 20px;
-        background-color: #333333;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        color: #cccccc;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 24px;
-        text-align: center;
+      canvas {
+        width: 100vw !important;
+        height: 100vh !important;
+        object-fit: contain;
       }
 
-      span.math {
-        font-family: KaTeX_Math;
+      body {
+        overflow: hidden;
       }
     </style>
-
-    <link rel="stylesheet" href="assets/fonts/fonts.css" />
   </head>
 
   <body>
-    <h1>Manim web Examples</h1>
-    <a href="index.html" class="back-btn">back</a>
     <div id="canvas-container"></div>
-    <p>This animation is not interactive</p>
-    <p>This is one of the examples from Manim</p>
-    <!-- JS Libs -->
     <script>
       var module = {};
     </script>

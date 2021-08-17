@@ -1,0 +1,20 @@
+{
+  "name": "manim-web.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/manim-web/manim-web.github.io.git",
+  "author": "Hugo-s29 <y.hugo.s29@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.13.13",
+    "next": "^11.1.0",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.1",
+    "prism-react-renderer": "^1.2.1",
+    "prismjs": "^1.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-katex": "^2.0.2"
+  }
+}

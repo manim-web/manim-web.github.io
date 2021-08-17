@@ -5,6 +5,11 @@ const withNextra = require('nextra')({
   // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
 });
 
-module.exports = withNextra({
-  outDir: './docs',
-});
+/**
+ * @type {import('next').NextConfig}
+ */
+const config = {
+  distDir: './docs',
+};
+
+module.exports = withNextra(config);

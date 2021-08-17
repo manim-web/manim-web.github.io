@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "rm -rf out docs && next build && next export && mv out docs",
+    "build": "rm -rf out docs node_modules/.cache && next build && next export && touch out/.nojekyll && mv out docs",
     "start": "next start"
   },
   "dependencies": {

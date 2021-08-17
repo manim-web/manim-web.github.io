@@ -1,5 +1,3 @@
-const debug = process.env.NODE_ENV !== 'production';
-
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
   themeConfig: './theme.config.js',
@@ -8,5 +6,5 @@ const withNextra = require('nextra')({
 });
 
 module.exports = withNextra({
-  assetPrefix: !debug ? '/manim-web/' : '',
+  outDir: './docs',
 });

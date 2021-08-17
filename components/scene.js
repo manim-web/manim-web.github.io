@@ -12,7 +12,7 @@ function Scene({ src }) {
           left: 0,
           top: 0,
         }}
-        frameborder="0"
+        frameBorder="0"
       />
     </div>
   );

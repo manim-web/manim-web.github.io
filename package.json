@@ -7,9 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "build": "rm -rf out docs && next build && next export && mv out docs",
+    "start": "next start"
   },
   "dependencies": {
     "katex": "^0.13.13",

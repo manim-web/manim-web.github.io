@@ -8,8 +8,6 @@ const withNextra = require('nextra')({
 /**
  * @type {import('next').NextConfig}
  */
-const config = {
-  distDir: './docs',
-};
+const config = {};
 
 module.exports = withNextra(config);

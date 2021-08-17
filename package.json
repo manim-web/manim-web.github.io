@@ -5,6 +5,13 @@
   "repository": "https://github.com/manim-web/manim-web.github.io.git",
   "author": "Hugo-s29 <y.hugo.s29@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
   "dependencies": {
     "katex": "^0.13.13",
     "next": "^11.1.0",

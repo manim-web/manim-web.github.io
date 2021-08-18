@@ -14,7 +14,7 @@
     "katex": "^0.13.13",
     "next": "^11.1.0",
     "nextra": "^1.1.0",
-    "nextra-theme-docs": "^1.2.1",
+    "nextra-theme-docs": "^1.2.2",
     "prism-react-renderer": "^1.2.1",
     "prismjs": "^1.24.1",
     "prop-types": "^15.7.2",

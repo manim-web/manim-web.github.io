@@ -2,7 +2,7 @@ export default {
   github: 'https://github.com/manim-web/manim-web', // GitHub link in the navbar
   docsRepositoryBase:
     'https://github.com/manim-web/manim-web.github.io/blob/master', // base URL for the docs repository
-  titleSuffix: '',
+  titleSuffix: ' - Manim Web',
   nextLinks: true,
   prevLinks: true,
   search: true,
